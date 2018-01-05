@@ -9,12 +9,12 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
-author: David Freeman # add your name
+author: Onex_Zgj # add your name
 author-img: david-freeman.jpg # add your photo
 about-author: 我是一名Android开发工程师! # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
+github: https://github.com/OnexZgj # add your Github handle
 linkedin: # add your Linkedin handle
 email: 474835552@qq.com # add your Email address
 
