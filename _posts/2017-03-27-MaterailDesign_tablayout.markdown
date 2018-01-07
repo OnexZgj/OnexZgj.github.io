@@ -3,14 +3,16 @@ layout: post
 title: 用Materail Design设计实现悬浮的Tablayout
 date: 2017-12-27 15:13:20 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: float_tablayou.png # Add image post (optional)
+img: how-to-start.jpg # Add image post (optional)
 tags: [Tablayout, Float]
 ---
-首先看看效果图：\n
+首先看看效果图：
+
+
 
 
 ![onex.gif](http://upload-images.jianshu.io/upload_images/5249989-ee168e845126dc42.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-\n
+
 
 今天就实现一个这样的效果：悬浮的tablayout的效果，带你一步步的实现这个效果：
 
@@ -19,7 +21,7 @@ tags: [Tablayout, Float]
 
 - 整体还是监听ScrollView的滑动，通过Window动态的添加的View，实现悬浮的效果，为什么要用ScrollView而不用ListView或者RecycleView这些滑动控件，因为ScrollView可以很精确的判断出当前滑动的距离，而其他的控件会出现一个惯性滑动，不好测量，所以一般都会使用ScrollView。
 
-###Demo实现的过程：
+###Demo的实现过程
 通过Materail Design新控件去实现悬浮的Tablayout，进行实现大体的思想是：
 1. 使用了可折叠的Toolbar,即CollapsingToolbarLayout，它可以帮助我们进行折叠Toolbar
 
