@@ -14,7 +14,7 @@ author-img: david-freeman.jpg # add your photo
 about-author: 永远相信美好的事情即将发生! # add description
 twitter: # add your Twitter handle
 facebook: # add your Facebook handle
-github: https://github.com/OnexZgj # add your Github handle
+github: OnexZgj # add your Github handle
 linkedin: # add your Linkedin handle
 email: 474835552@qq.com # add your Email address
 
@@ -31,7 +31,7 @@ plugins:
   - jekyll-paginate
   - jemoji
 
-paginate: 8
+paginate: 6
 paginate_path: "/page/:num"
 
 exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
