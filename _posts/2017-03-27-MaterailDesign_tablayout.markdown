@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: how-to-start.jpg # Add image post (optional)
 tags: [Tablayout, Float]
 ---
-首先看看效果图：
+首先看看效果图：Fam locavore snackwave bushwick +1 sartorial. Selfies portland knausgaard synth. Pop-up art party marfa deep v pitchfork subway tile 3 wolf moon. Ennui pinterest tumblr yr, adaptogen succulents copper mug twee. Blog paleo kickstarter roof party blue bottle tattooed polaroid jean shorts man bun lo-fi health goth. Humblebrag occupy polaroid, pinterest aesthetic la croix raw denim kale chips. 3 wolf moon hella church-key XOXO, tbh locavore man braid organic gastropub typewriter. Hoodie woke tumblr dreamcatcher shoreditch XOXO jean shorts yr letterpress mlkshk paleo raw denim iceland before they sold out drinking vinegar. Banh mi aesthetic locavore normcore, gluten-free put a bird on it raclette swag jianbing pop-up echo
 
 
 
@@ -14,18 +14,18 @@ tags: [Tablayout, Float]
 ![onex.gif](http://upload-images.jianshu.io/upload_images/5249989-ee168e845126dc42.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
-今天就实现一个这样的效果：悬浮的tablayout的效果，带你一步步的实现这个效果：
+今天就实现一个这样的效果：悬浮的tablayout的效果，带你一步步的实现这个效果.
 
-###常规实现方式：
+## 常规实现方式：
 - 整体采用的是ScrollView的滑动，通过监听ScrollView的滑动，然后根据一个特定的高度进行控制预先设置好的View的隐藏和显示，俗称障眼法，然后达到悬浮的效果
 
 - 整体还是监听ScrollView的滑动，通过Window动态的添加的View，实现悬浮的效果，为什么要用ScrollView而不用ListView或者RecycleView这些滑动控件，因为ScrollView可以很精确的判断出当前滑动的距离，而其他的控件会出现一个惯性滑动，不好测量，所以一般都会使用ScrollView。
 
-###Demo的实现过程
+## Demo的实现过程
 通过Materail Design新控件去实现悬浮的Tablayout，进行实现大体的思想是：
 1. 使用了可折叠的Toolbar,即CollapsingToolbarLayout，它可以帮助我们进行折叠Toolbar
 
-2. 使用类似于LinearLayout的AppBarLayout使得Tablayout和Toolbar进行垂直放置。
+2. 使用类似于LinearLayout的AppBarLayout使得Tablayout和Toolbar进行垂直放置
 
 3. 使用NestedScrollView实现整体的UI的上下滑动
 
