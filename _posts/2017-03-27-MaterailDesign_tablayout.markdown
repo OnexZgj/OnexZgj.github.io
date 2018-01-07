@@ -6,8 +6,12 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: float_tablayou.png # Add image post (optional)
 tags: [Tablayout, Float]
 ---
-首先看看效果图：
+首先看看效果图：\n
+
+
 ![onex.gif](http://upload-images.jianshu.io/upload_images/5249989-ee168e845126dc42.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+\n
+
 今天就实现一个这样的效果：悬浮的tablayout的效果，带你一步步的实现这个效果：
 
 ###常规实现方式：
